@@ -15,11 +15,13 @@ Date: 2016-04-03
 
 ### Introduction
 
-As stated in the course project description, "one of the most exciting areas in all of data science right now is wearable computing - see for example [this article."](http://www.insideactivitytracking.com/data-science-activity-tracking-and-the-battle-for-the-worlds-top-sports-brand/) This project analyzes data collected from the accelerometers of Samsung Galaxy S smartphones and demonstrates the ability to collect, work with, and clean a data set. The resulting output is a tidy data set that can be used in subsequent analysis.
+As stated in the course project description, "one of the most exciting areas in all of data science right now is wearable computing - see for example [this article."](http://www.insideactivitytracking.com/data-science-activity-tracking-and-the-battle-for-the-worlds-top-sports-brand/)This project analyzes data collected from the accelerometers of Samsung Galaxy S smartphones and demonstrates the ability to collect, work with, and clean a data set. The resulting output is a tidy data set that can be used in subsequent analysis.
 
 A full description of the original data set, as well as the data itself, are available at the [UCI Machine Learning Repository Center for Machine Learning and Intelligent Systems.](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 The initial Dataset, [UCI HAR Data](http://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip), is provided as zipped file.
+
+
 
 ### Intstructions to Reproduce This Project
 
@@ -29,12 +31,16 @@ This script does the following:
 ***
 **1. Merges the training and the test sets to create one data set.**
   + Note: Explain how
+  
 **2. Extracts only the measurements on the mean and standard deviation for each measurement.**
   + Note: Explain how these have been determined. 
+  
 **3. Uses descriptive activity names to name the activities in the data set.**
   + Note: Explain Why Descriptive. 
+  
 **4. Appropriately labels the data set with descriptive activity names.**
   + Note: Explain Why Descriptive. 
+  
 **5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.**
   + Explain Why Tidy
 
