@@ -15,11 +15,11 @@ Date: 2016-04-03
 
 ### Introduction
 
-As stated in the course project description, "one of the most exciting areas in all of data science right now is wearable computing - see for example [this article."](http://www.insideactivitytracking.com/data-science-activity-tracking-and-the-battle-for-the-worlds-top-sports-brand/)This project analyzes data collected from the accelerometers of Samsung Galaxy S smartphones and demonstrates the ability to collect, work with, and clean a data set. The resulting output is a tidy data set that can be used in subsequent analysis.
+As stated in the course project description, "one of the most exciting areas in all of data science right now is wearable computing - see for example [this article."](http://www.insideactivitytracking.com/data-science-activity-tracking-and-the-battle-for-the-worlds-top-sports-brand/)<sup>1</sup> This project analyzes data collected from the accelerometers of Samsung Galaxy S smartphones and demonstrates the ability to collect, work with, and clean a data set. The resulting output is a tidy data set that can be used in subsequent analysis.
 
-A full description of the original data set, as well as the data itself, are available at the [UCI Machine Learning Repository Center for Machine Learning and Intelligent Systems.](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+A full description of the original data set, as well as the data itself, are available at the [UCI Machine Learning Repository Center for Machine Learning and Intelligent Systems.](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)<sup>2</sup>
 
-The initial Dataset, [UCI HAR Data](http://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip), is provided as zipped file.
+The initial Dataset, [UCI HAR Data](http://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip), is provided as zipped file.<sup>1</sup>
 
 
 
@@ -42,7 +42,7 @@ This script does the following:
   + Note: Explain Why Descriptive. 
   
 **5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.**
-  + Explain Why Tidy
+  + Explain Why Tidy 
 
 ### Output Overview
 
