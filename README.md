@@ -11,7 +11,7 @@ As stated in the course project description, "one of the most exciting areas in 
 
 A full description of the original data set, as well as the data itself, are available at the [UCI Machine Learning Repository Center for Machine Learning and Intelligent Systems.](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
-A link to the initial dataset provided is available here: [UCI HAR Data ](http://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)- zipped data file.
+Initial Dataset: [UCI HAR Data](http://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip), provided as zipped file.
 
 
 
