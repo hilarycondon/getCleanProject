@@ -48,10 +48,10 @@ This script does the following, each of which is blocked out in the code of the 
 **4. Appropriately labels the data set with descriptive activity names.**
   
 **5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.**
-  + Per Wickham <sup>3<sup> this data set is tidy because:
-    * Each variable forms a column - Subject, Activity, Variables Being Measured
-    * Each observation forms a row - Average Measurement for each Variable Being Measured by Subject + Activity.
-    * Each type of observational unit forms a table - One table of Average Measurements for each variable by Subjects + Activity
+  + Per Wickham <sup>3</sup> this data set is tidy because:
+    *  Each variable forms a column - Subject, Activity, Variables Being Measured
+    *  Each observation forms a row - Average Measurement for each Variable Being Measured by Subject + Activity.
+    *  Each type of observational unit forms a table - One table of Average Measurements for each variable by Subjects + Activity
 
 ### Output Overview
   * This script will output a tidy dataset file as described in step 5 (Tab-deliminated text)
