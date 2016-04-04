@@ -10,7 +10,6 @@ Date: 2016-04-03
 * Instructions to Reproduce This Project
 * run_analysis.R Script Overview
 * Output Overview
-* codebook.md overview
 * Acknowledgements
 
 ### Introduction
@@ -25,28 +24,41 @@ The initial Dataset, [UCI HAR Data](http://d396qusza40orc.cloudfront.net/getdata
 
 ### Intstructions to Reproduce This Project
 
+To reproduce this project, run the R script run_analysis.R that is saved in this directory. 
+You will also need to store the makeCodebook.Rmd file stored in this directory, as it is called in the run_analysis.R file.
+
+Note: This will create a data directory, or add data to a pre-existing data directory, and output files in your
+current working directory. Save and run the script in a working directory where you are comfortable with activity.
+
+To read the output text file into R and View it, Open RStudio and: 
+> SET CURRENT WORKING DIRECTORY TO DIRECTORY WHERE R SCRIPT RAN AND TIDY.TXT FILE OUTPUT
+> data <- read.table("tidy.txt", header = TRUE) 
+> View(data) # This will not work in console, but only in RStudio
+
 ### run_analysis.R Script Overview
 
-This script does the following: 
+This script does the following, each of which is blocked out in the code of the run_analysis.R file. 
 ***
 **1. Merges the training and the test sets to create one data set.**
-  + Note: Explain how
   
 **2. Extracts only the measurements on the mean and standard deviation for each measurement.**
-  + Note: Explain how these have been determined. 
   
 **3. Uses descriptive activity names to name the activities in the data set.**
-  + Note: Explain Why Descriptive. 
   
 **4. Appropriately labels the data set with descriptive activity names.**
-  + Note: Explain Why Descriptive. 
   
 **5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.**
-  + Explain Why Tidy 
+  + Per Wickham <sup>3<sup> this data set is tidy because:
+    * Each variable forms a column - Subject, Activity, Variables Being Measured
+    * Each observation forms a row - Average Measurement for each Variable Being Measured by Subject + Activity.
+    * Each type of observational unit forms a table - One table of Average Measurements for each variable by Subjects + Activity
 
 ### Output Overview
-
-### codebook.md Overview
+  * This script will output a tidy dataset file as described in step 5 (Tab-deliminated text)
+  * In addition, this script will create or modify the codebook.md file (Markdown) 
+    + a HTML version is also created by the current script.  
+    + Variable Lists, Data Structures, and Information on the Output Data is Stored in the Codebook.
+    + As noted in the Codebook, ore explicit documentation of transformations to the data to arrive at the dataset are noted in the comments of the run_analysis.R file. 
 
 ### Acknowledgements
 1. This project is a part as of the [Getting and Cleaning Data Course,](https://www.coursera.org/learn/data-cleaning/) which is offered by Johns Hopkins University on Coursera, with Jeff Leek, PhD, Roger Peng, PhD, and Brian Caffo, PhD instructing.
